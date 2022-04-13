@@ -1,5 +1,6 @@
 form{
 	width:400px;
+	max-width: 100%;
 	padding:15px;
 	border-radius:10px;
 	margin: auto;
@@ -36,4 +37,17 @@ form button{
 form input[type="submit"]:hover{
 	cursor:pointer;
     background-color: rgb(95, 93, 93);
+}
+
+#div-li {
+	width: 400px;
+	margin:auto;
+	margin-top: 2rem;
+	max-width: 100%;
+	padding:15px;
+	border-radius:10px;
+	background-color:rgba(221, 221, 221, 0.863);
+}
+li{
+	list-style: none;
 }
